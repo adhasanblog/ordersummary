@@ -29,7 +29,7 @@ module.exports = {
             },
             backgroundImage: {
                 "svg-pattern": "url('/src/img/pattern-background-desktop.svg')",
-                "svg-pattern-mobile": "url('src/img/pattern-background-mobile.svg')",
+                "svg-pattern-mobile": "url('/src/img/pattern-background-mobile.svg')",
             },
             backgroundSize: {
                 full: "100%",

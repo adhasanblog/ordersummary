@@ -671,7 +671,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .phone\:bg-svg-pattern-mobile{
-    background-image: url('src/img/pattern-background-mobile.svg');
+    background-image: url('/src/img/pattern-background-mobile.svg');
   }
 
   .phone\:bg-mobile{
