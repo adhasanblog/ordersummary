@@ -701,7 +701,7 @@ Ensure the default browser behavior of the `hidden` attribute.
         width: 18rem;
     }
     .phone\:bg-svg-pattern-mobile {
-        background-image: url("img/pattern-background-mobile.svg");
+        background-image: url("/img/pattern-background-mobile.svg");
     }
     .phone\:bg-mobile {
         background-size: 375px;
@@ -728,7 +728,7 @@ Ensure the default browser behavior of the `hidden` attribute.
         width: 18rem;
     }
     .tablet\:bg-svg-pattern {
-        background-image: url("img/pattern-background-desktop.svg");
+        background-image: url("/img/pattern-background-desktop.svg");
     }
     .tablet\:bg-full {
         background-size: 100%;
@@ -743,7 +743,7 @@ Ensure the default browser behavior of the `hidden` attribute.
         width: 450px;
     }
     .desktop\:bg-svg-pattern {
-        background-image: url("img/pattern-background-desktop.svg");
+        background-image: url("/img/pattern-background-desktop.svg");
     }
     .desktop\:bg-full {
         background-size: 100%;
