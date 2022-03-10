@@ -28,8 +28,8 @@ module.exports = {
                 "dark-blue": "hsl(223, 47%, 23%)",
             },
             backgroundImage: {
-                "svg-pattern": "url('/src/img/pattern-background-desktop.svg')",
-                "svg-pattern-mobile": "url('/src/img/pattern-background-mobile.svg')",
+                "svg-pattern": "url('src/img/pattern-background-desktop.svg')",
+                "svg-pattern-mobile": "url('src/img/pattern-background-mobile.svg')",
             },
             backgroundSize: {
                 full: "100%",
