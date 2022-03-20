@@ -470,6 +470,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 360px){
+  .container{
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 376px){
+  .container{
+    max-width: 376px;
+  }
+}
+
+@media (min-width: 834px){
+  .container{
+    max-width: 834px;
+  }
+}
+
+.m-0{
+  margin: 0px;
+}
+
+.m-auto{
+  margin: auto;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -478,6 +508,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .mt-10{
@@ -496,6 +531,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
@@ -504,8 +543,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .w-321{
   width: 321px;
+}
+
+.w-screen{
+  width: 100vw;
 }
 
 .flex-row{
@@ -514,6 +561,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-items-center{
+  justify-items: center;
 }
 
 .rounded-2xl{
@@ -566,6 +625,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center{
   text-align: center;
+}
+
+.align-middle{
+  vertical-align: middle;
 }
 
 .font-red-hat{
@@ -643,11 +706,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 360px) and (max-width: 375px){
-  .phone\:my-20{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
   .phone\:mx-5{
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -668,7 +726,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .phone\:bg-svg-pattern-mobile{
-    background-image: url('./img/pattern-background-mobile.svg');
+    background-image: url('img/pattern-background-mobile.svg');
   }
 
   .phone\:bg-mobile{
@@ -681,11 +739,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 376px) and (max-width: 834px){
-  .tablet\:my-20{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
   .tablet\:mx-5{
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -702,7 +755,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .tablet\:bg-svg-pattern{
-    background-image: url('./img/pattern-background-desktop.svg');
+    background-image: url('img/pattern-background-desktop.svg');
   }
 
   .tablet\:bg-full{
@@ -715,17 +768,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 834px) and (max-width: 1920px){
-  .desktop\:my-36{
-    margin-top: 9rem;
-    margin-bottom: 9rem;
-  }
-
   .desktop\:w-450{
     width: 450px;
   }
 
   .desktop\:bg-svg-pattern{
-    background-image: url('./img/pattern-background-desktop.svg');
+    background-image: url('img/pattern-background-desktop.svg');
   }
 
   .desktop\:bg-full{
