@@ -16,6 +16,12 @@ module.exports = {
             },
         },
         extend: {
+            margin: {
+                "25px": "25px",
+                "30px": "30px",
+                "35px": "35px",
+                "52px": "52px",
+            },
             width: {
                 321: "321px",
                 450: "450px",
