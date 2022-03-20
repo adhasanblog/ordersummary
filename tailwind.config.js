@@ -20,6 +20,9 @@ module.exports = {
                 321: "321px",
                 450: "450px",
             },
+            height: {
+                700: "700px",
+            },
             colors: {
                 "pale-blue": "hsl(225, 100%, 94%)",
                 "bright-blue": "hsl(245, 75%, 52%)",
